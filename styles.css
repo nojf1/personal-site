@@ -2,16 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
 body {
     background-color: #1a2d50;
+    color: #ffffff;
 }
 
 .header {
     position: fixed;
-    padding: 20px 10%;
+    padding: 10px 10%;
     width: 100%;
     background-color: #5d5bc5;
     z-index: 100;
@@ -27,8 +28,9 @@ body {
     font-size: 30px;
     color: #ffffff;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 500;
     transition: 0.5s;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
@@ -39,8 +41,64 @@ body {
     text-decoration: none;
     margin-left: 20px;
     transition: 0.5s;
+
 }
 
 .navbar a:hover, .navbar a.active {
-    color: #3e87cc;
+    background-color: #7573f1;
+    padding: 10px 10px;
+    border-radius: 10%;
+
+}
+
+.index {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10%;
+}
+
+.index-content {
+    font-size: 20px;
+    background-color: #5d5bc5;
+    max-width: 800px;
+    padding: 20px;
+    border-top-right-radius: 40px;
+    transition: 0.3s;
+}
+
+.index-content h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.index-content h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.index-content p {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.index-buttons {
+
+    margin-top: 20px;
+
+}
+
+.btn {
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #5eacf5;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #3e87cc;
+    color: #c4c4c4;
 }
