@@ -117,9 +117,11 @@ body {
     letter-spacing: 3px;
     text-shadow: 1px 1px 1px #2c2c2c;
     background: transparent;
+    transition: all 0.5s;
 }
 
 .btn:hover {
+    margin: 10px;
     background-image: linear-gradient(to right, #5da3ff, #3f82ff);
 }
 
